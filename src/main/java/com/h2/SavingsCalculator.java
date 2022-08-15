@@ -40,7 +40,7 @@ public class SavingsCalculator {
         return sumOfCredits()-sumOfDebits();
     }
 
-    public static void Main(String[] args){
+    public static void main(String[] args){
         String[] creditAsString = args[0].split(",");
         String[] debitAsString = args[1].split(",");
         float[] credits = new float[creditAsString.length];
